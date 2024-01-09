@@ -8,6 +8,7 @@ module.exports = grammar({
         ),
 
         colon: $ => ":",
+        tilde: $ => "~",
         bracket_l: $ => '[',
         bracket_r: $ => ']',
 
@@ -20,7 +21,7 @@ module.exports = grammar({
         ),
 
         speaker: $ => choice(
-            seq($.character, $.colon),
+            seq(optional($.tilde), $.character, $.colon),
             seq($.bracket_l, $.special, $.bracket_r),
         ),
         special: $ => choice("sono", "skribo"),

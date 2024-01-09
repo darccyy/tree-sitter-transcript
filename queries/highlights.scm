@@ -1,8 +1,11 @@
-(colon)     @operator
-(bracket_l) @operator
-(bracket_r) @operator
-
 (divider)   @comment
+
 (character) @constructor
+(tilde)     @operator
+(colon)     @operator
+
 (special)   @keyword
+(bracket_l) @keyword
+(bracket_r) @keyword
+
 (text)      @string

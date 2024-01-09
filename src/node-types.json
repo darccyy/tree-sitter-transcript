@@ -79,6 +79,10 @@
         {
           "type": "special",
           "named": true
+        },
+        {
+          "type": "tilde",
+          "named": true
         }
       ]
     }
@@ -118,6 +122,10 @@
   },
   {
     "type": "text",
+    "named": true
+  },
+  {
+    "type": "tilde",
     "named": true
   }
 ]

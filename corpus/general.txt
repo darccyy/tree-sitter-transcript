@@ -5,8 +5,10 @@ idk something
 GARFILDO:
     Something
 ---
-GARFILDO:
+~FORMIKO:
     Something
+[sono]
+    Bang!
 ---
 JONO:
     Something stupid
@@ -29,8 +31,17 @@ GARFILDO:
     (panel
         (line
             (speaker
+                (tilde)
                 (character)
                 (colon)
+            )
+            (text)
+        )
+        (line
+            (speaker
+                (bracket_l)
+                (special)
+                (bracket_r)
             )
             (text)
         )

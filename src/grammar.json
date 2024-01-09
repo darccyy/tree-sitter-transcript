@@ -30,6 +30,10 @@
       "type": "STRING",
       "value": ":"
     },
+    "tilde": {
+      "type": "STRING",
+      "value": "~"
+    },
     "bracket_l": {
       "type": "STRING",
       "value": "["
@@ -68,6 +72,18 @@
         {
           "type": "SEQ",
           "members": [
+            {
+              "type": "CHOICE",
+              "members": [
+                {
+                  "type": "SYMBOL",
+                  "name": "tilde"
+                },
+                {
+                  "type": "BLANK"
+                }
+              ]
+            },
             {
               "type": "SYMBOL",
               "name": "character"
