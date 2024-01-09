@@ -1,0 +1,123 @@
+[
+  {
+    "type": "line",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "speaker",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "panel",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "line",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "divider",
+          "named": true
+        },
+        {
+          "type": "panel",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "speaker",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "bracket_l",
+          "named": true
+        },
+        {
+          "type": "bracket_r",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
+          "type": "colon",
+          "named": true
+        },
+        {
+          "type": "special",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "special",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "bracket_l",
+    "named": true
+  },
+  {
+    "type": "bracket_r",
+    "named": true
+  },
+  {
+    "type": "character",
+    "named": true
+  },
+  {
+    "type": "colon",
+    "named": true
+  },
+  {
+    "type": "divider",
+    "named": true
+  },
+  {
+    "type": "skribo",
+    "named": false
+  },
+  {
+    "type": "sono",
+    "named": false
+  },
+  {
+    "type": "text",
+    "named": true
+  }
+]

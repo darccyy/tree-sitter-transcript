@@ -1,0 +1,56 @@
+==================
+idk something
+==================
+
+GARFILDO:
+    Something
+---
+GARFILDO:
+    Something
+---
+JONO:
+    Something stupid
+GARFILDO:
+    Something funny
+
+---
+
+(source_file
+    (panel
+        (line
+            (speaker
+                (character)
+                (colon)
+            )
+            (text)
+        )
+    )
+    (divider)
+    (panel
+        (line
+            (speaker
+                (character)
+                (colon)
+            )
+            (text)
+        )
+    )
+    (divider)
+    (panel
+        (line
+            (speaker
+                (character)
+                (colon)
+            )
+            (text)
+        )
+        (line
+            (speaker
+                (character)
+                (colon)
+            )
+            (text)
+        )
+    )
+)
+
